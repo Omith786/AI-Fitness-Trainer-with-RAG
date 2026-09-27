@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+web/dist/
+
+# Generated embedding index (rebuild with `npm run build:index`)
+data/index.json
+
+# Environment
+.env
+.env.local
+
+# Model / tool caches
+.cache/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
